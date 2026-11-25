@@ -1,2 +1,0 @@
-# SellerMate AI Knowledge Wiki
-解壓後直接開啟 index.html。GitHub 建立 sellermate-wiki 公開 repo，將本資料夾內全部檔案上傳到根目錄，Settings → Pages → Deploy from a branch → main / root。測試 index.html、slides.html、workflow.html。執行 node test.cjs 可重現公式測試。
