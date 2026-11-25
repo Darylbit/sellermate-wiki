@@ -1,0 +1,2 @@
+function profit(p,c,f,a){if(![p,c,f,a].every(Number.isFinite)||p<=0||c<0||a<0||f<0||f>100)throw Error('請輸入有效數值');return p-c-p*f/100-a;}function target(c,f,m){if(c<0||f<0||m<0||f+m>=100)throw Error('無有效售價');return Math.ceil((c/(1-(f+m)/100))*100-1e-9)/100;}function ratio(n,d){return d>0?n/d:null;}
+if(typeof module!=="undefined")module.exports={profit,target,ratio};
